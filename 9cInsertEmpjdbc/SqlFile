@@ -1,1 +1,9 @@
 
+CREATE DATABASE IF NOT EXISTS Employee;
+USE Employee;
+
+CREATE TABLE IF NOT EXISTS Emp (
+    empno INT PRIMARY KEY,
+    empname VARCHAR(100) NOT NULL,
+    basicsalary INT NOT NULL
+);
